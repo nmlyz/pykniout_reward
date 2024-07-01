@@ -4,6 +4,7 @@
 ## 使い方
 ```
 python from pyknioutReward.main import Reward
+
 t = Reward()
 t.reward_get(荒野ID,引き換えコード)
 ```
