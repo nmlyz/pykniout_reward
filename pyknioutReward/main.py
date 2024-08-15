@@ -42,8 +42,7 @@ class Reward():
       msg = Config.MSG200
     elif status == False:
       status = '無効'
-
-    msg = check(data['code'])
+      msg = check(data['code'])
     if msg == 'error':
       print('ーーーーーーーーーーーーーーー')
       print('↓この内容をコピーしてtwitter:@xc2p_に送信してください')
